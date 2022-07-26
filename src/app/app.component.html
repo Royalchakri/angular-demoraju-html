@@ -10,7 +10,7 @@
 <h4>Radha</h4>
 <h5>Swapna</h5>
 <h6>Lavnaya</h6>
-<p>My name is Rajukumar<br>
+<p class="one">My name is Rajukumar<br>
 My father name sreenivasulu<br>
 I love My mom
 <!-- my lover name maneesha-->
@@ -20,7 +20,7 @@ I love My mom
 <p>My <abbr title="MANEESHA">Heart</abbr> Name.</p>
 <img src="https://i.pinimg.com/originals/38/87/74/38877439081908bb80017cd95732d243.jpg" width="500" height="500">
 <hr>
-<address>
+<address class="two">
 written by RAJAKUMAR<br>
 ponnapuram village<br>
 nandyal mandal<br>
@@ -44,7 +44,7 @@ pincode:518502
 <p><bdo dir="rtl">my name raju</bdo></p>
 <hr>
 <h2>blockquote element</h2>
-<blockquote>
+<blockquote class="three">
 For 50 years, WWF has been protecting the future of nature. 
 The world's leading conservation organization, 
 WWF works in 100 countries and is supported 
@@ -157,8 +157,8 @@ where <var>b</var> is the base, and <var>h</var>
  is the vertical height.</p>
 <hr>
 
-<h2>wbr element</h2>
-<p>this is a
+<h2 >wbr element</h2>
+<p >this is a
 rararrarrarrarrrarrarrarrarrrarrarrar<wbr>hdgydujldnjk<wbr>hddchbjkcwkucjlwjcuih
 </p>
 <hr>
@@ -260,19 +260,29 @@ title="appcomponet.ts">
 <a href="/python/">logout</a>
 </nav>
 <hr>
-<h2>list tags</h2>
-<ul>
+<h2 >list tags</h2>
+<ul class="a">
 <li>raju</li>
 <li>maneesha</li>
 <li>radha</li>
 </ul>
 <br>
-<ol>
+<ul class="b">
+<li>raju</li>
+<li>maneesha</li>
+<li>radha</li>
+</ul>
+<ol class="c">
 <li>raju</li>
 <li>maneesha</li>
 <li>radha</li>
 </ol>
 <br>
+<ol class="d">
+<li>raju</li>
+<li>maneesha</li>
+<li>radha</li>
+</ol>
 <br>
 <dl>
 <dt>raju</dt>
@@ -311,7 +321,7 @@ title="appcomponet.ts">
 <h2> style element</h2>
 <style>
 h1 {color:red;}
-p {color:blue;}
+p {color:black;}
 </style>
 <body>
 
@@ -331,7 +341,7 @@ p {color:blue;}
 </div>
 <hr>
 <h2>span element</h2>
-<p>My lover has <span style="color:blue;font-weight:bold">
+<p>My lover has <span style="color:black;font-weight:bold">
 blue</span> eyes and my second lover has 
 <span style="color:darkolivegreen;font-weight:bold">dark green
 </span> eyes.</p>
@@ -349,6 +359,158 @@ blue</span> eyes and my second lover has
 Your browser does not support the audio element.
 </audio>
 <hr>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+<!--Get your own code at fontawesome.com-->
+<body>
+
+<h1>Font Awesome icon library</h1>
+
+<p>Some Font Awesome icons:</p>
+<i class="fas fa-cloud"></i>
+<i class="fas fa-heart"></i>
+<i class="fas fa-car"></i>
+<i class="fas fa-file"></i>
+<i class="fas fa-bars"></i>
+
+<p>Styled Font Awesome icons (size and color):</p>
+<i class="fas fa-cloud" style="font-size:24px;"></i>
+<i class="fas fa-cloud" style="font-size:36px;"></i>
+<i class="fas fa-cloud" style="font-size:48px;color:red;"></i>
+<i class="fas fa-cloud" style="font-size:60px;color:lightblue;"></i>
+
+<hr>
+<div class="relative">This div element has position: relative;
+  <div class="absolute">This div element has position: absolute;</div>
+</div>
+<hr>
+<h1>Overlapping elements</h1>
+
+<p>If two positioned elements overlap each other without a z-index specified,
+the element defined last in the HTML code will be shown on top:</p>
+
+/*<div class="container">
+  <div class="black-box">Black box</div>
+  <div class="gray-box">Gray box</div>
+  <div class="green-box">Green box</div>
+</div>*/
+<hr>
+<h2>Overflow: visible</h2>
+
+<p>By default, the overflow is visible, meaning that it is not clipped and it renders outside the element</p>
+
+<div class="saveen">You can use the overflow property when you want to have better control of the layout. The overflow property specifies what happens if content overflows an element</div>
+<br>
+<br>
+<br>
+
+<hr>
+<br>
+<h2>Overflow: scroll</h2>
+
+<p>Setting the overflow value to scroll, the overflow is clipped and a is added to scroll inside the box. Note that this will add a both horizontally and vertically (even if you do not need it):</p>
+
+<div class="eight">You can use the overflow property when you want to have better control of the layout. The overflow property specifies what happens if content overflows an element</div>
+
+<hr>
+<h2>Float Right</h2>
+
+<p>In this example, the image will float to the right in the paragraph, and the text in the paragraph will wrap around the image.</p>
+
+<p ><img class="ten" src ="https://media.istockphoto.com/photos/red-apple-with-leaf-isolated-on-white-background-picture-id185262648?k=20&m=185262648&s=612x612&w=0&h=nxfd_QVNvUHjaZLq-p7jnF_TFm1N-vZTSy-wFyScoQg=" alt="Pineapple" style="width:170px;height:170px;margin-left:15px;">
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Mauris ante ligula, facilisis sed ornare eu, lobortis in odio. Praesent convallis urna a lacus interdum ut hendrerit risus congue. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta. Cras ac leo purus. Mauris quis diam velit.</p>
+<hr>
+<br>
+<br>
+<p class="nine">You can use the ::first-line pseudo-element to add a special effect to the first line of a text. Some more text. And even more, and more, and more, and more, and more, and more, and more, and more, and more, and more, and more, and more.</p>
+<hr>
+<h1>Image Transparency</h1>
+<p>The opacity property specifies the transparency of an element. The lower the value, the more transparent:</p>
+
+<p>Image with 50% opacity:</p>
+<img class="nine" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHKo8dHl8dBZJslTnz8kE0q2STi1y7hHtpVw&usqp=CAU" alt="Forest" width="170" height="100">
+
+<hr>
+<br>
+<br>
+<br>
+<br>
+<br>
+<hr>
+
+<div class="twen" >
+  <form action="/action_page.php">
+    <label for="fname">MobileNumber/Email ID</label>
+    <input type="text" id="fname" name="MobileNumber/Email" placeholder="Mobile number..">
+
+    <label for="lname">password</label>
+    <input type="text" id="lname" name="Password" placeholder="password..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+  
+    <input type="submit" value="Submit">
+  </form>
+</div>
+<hr>
+<br>
+/*<div class="header">
+  <h1>My Website</h1>
+  <p>Resize the browser window to see the effect.</p>
+</div>
+
+<div class="topnav">
+  <a href="#">Link</a>
+  <a href="#">Link</a>
+  <a href="#">Link</a>
+  <a href="#" style="float:right">Link</a>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>TITLE HEADING</h2>
+      <h5>Title description, Dec 7, 2017</h5>
+      <div class="fakeimg" style="height:200px;">Image</div>
+      <p>Some text..</p>
+      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+    </div>
+    <div class="card">
+      <h2>TITLE HEADING</h2>
+      <h5>Title description, Sep 2, 2017</h5>
+      <div class="fakeimg" style="height:200px;">Image</div>
+      <p>Some text..</p>
+      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>About Me</h2>
+      <div class="fakeimg" style="height:100px;">Image</div>
+      <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
+    </div>
+    <div class="card">
+      <h3>Popular Post</h3>
+      <div class="fakeimg"><p>Image</p></div>
+      <div class="fakeimg"><p>Image</p></div>
+      <div class="fakeimg"><p>Image</p></div>
+    </div>
+    <div class="card">
+      <h3>Follow Me</h3>
+      <p>Some text..</p>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <h2>Footer</h2>
+</div>*/
+
+
 
 
 
